@@ -19,6 +19,7 @@ node.js安装配置
 
 完成之后执行version命令检验是否安装成功：
 
+	source /etc/profile
 	npm --version
 
 ### 自动安装
