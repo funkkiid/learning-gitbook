@@ -1,40 +1,15 @@
 gitbook安装
 ===========
 
+安装使用 gitbook 需要以下步骤:
 
-# Linux 安装
+1. node.js 运行时
+2. gitbook
 
-## 安装node.js
+以下内容为可选的：
 
-### 手工安装
-
-下载地址: https://nodejs.org/en/
-
-将下载下来的 node-v6.1.0-linux-x64.tar.xz 文件解压缩，然后将文件复制到 /user/share 目录下：
-
-	sudo mv node-v6.1.0-linux-x64 /usr/share/nodejs
-    sudo ln -s /usr/share/nodejs/bin/node /usr/local/bin/node
-    sudo ln -s /usr/share/nodejs/bin/npm /usr/local/bin/npm
-
-### 自动安装
-
-可以用apt-get(或者yum)自动安装，为了安装最新版本，需要增加nodejs的仓库：
-
-    add-apt-repository ppa:chris-lea/node.js
-    apt-get update
-    apt-get install nodejs
-
-完成之后执行version命令检验是否安装成功：
-
-	npm --version
-
-## 安装gitbook
-
-	npm install -g gitbook gitbook-cli
-
-## 初始化依赖
-
-npm install .
+* grunt： 方便将生成的静态内容发布到 github
+* plantuml插件： 支持在 gitbook 中使用 plantuml
 
 
 
