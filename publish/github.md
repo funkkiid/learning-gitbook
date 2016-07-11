@@ -56,7 +56,7 @@ grunt 安装好之后，在本机编辑书籍内容时，可以用 grunt 启动�
 
 	grunt test
 
-这个方法类似 `gibook serve` (实际里面也调用了gitbook的命令)，之后打开浏览器(grunt脚本中有自动打开浏览器的设置)访问即可.
+这个方法类似 `gibook serve` (实际里面也调用了gitbook的命令)，之后打开浏览器(grunt脚本中有自动打开浏览器的设置)访问即可.日志如下：
 
     $ grunt test
     Running "gitbook:development" (gitbook) task
@@ -77,3 +77,37 @@ grunt 安装好之后，在本机编辑书籍内容时，可以用 grunt 启动�
 	grunt publish
 
 可以看到如下的日志：
+
+    Running "gitbook:development" (gitbook) task
+
+    Running "gh-pages:src" (gh-pages) task
+    Cloning git@github.com:skyao/leaning-gitbook.git into .grunt/grunt-gh-pages/gh-pages/src
+    Cleaning
+    Fetching origin
+    Checking out origin/gh-pages
+    Removing files
+    Copying files
+    Adding all
+    Committing
+    Pushing
+
+    Running "clean:files" (clean) task
+    >> 1 path cleaned.
+
+    Done, without errors.
+
+### 浏览发布内容
+
+从浏览器中直接访问就可以看到发布的结果：
+
+http://skyao.github.io/leaning-gitbook/
+
+注意这里路径的对应：
+
+1. 假如git仓库是地址 https://github.com/skyao/leanging-gitbook,格式是 "github.com/$account/$repo"
+2. 则github pages的URL是 http://skyao.github.io/leaning-gitbook/，格式是 "$account.github.io/$repo"，注意域名从github.com变成了github.io
+
+## 总结
+
+在使用 grunt 之后，发布到github pages就方便多了。
+

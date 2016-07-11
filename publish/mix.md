@@ -1,4 +1,10 @@
-# 从github中导入已有书籍
+# 混合方案
+
+github方案是指采用github提供的git仓库存储书籍内容，并使用gitbook发布HTML内容。
+
+可以说是github + gitbook 的混合。
+
+适合于习惯用github做git仓库，又想使用gitbook提供的功能的情况。
 
 ## 背景
 
