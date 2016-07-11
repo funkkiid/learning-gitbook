@@ -1,9 +1,9 @@
 gitbook学习笔记
 ===========
 
-> 注: 如果你看到的是github的源代码, 请点击下面的链接查看内容.
+> 注: 如果看到的是github的源代码, 请点击下面的链接:
 >
-> [gitbook学习笔记@gitbook](https://www.gitbook.com/book/skyao/leaning-gitbook/details)
+> [gitbook学习笔记@gitbook](https://www.gitbook.com/book/skyao/leaning-gitbook/)
 
 # 介绍
 
