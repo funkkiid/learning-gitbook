@@ -1,18 +1,10 @@
 {
     "author": "Sky Ao <aoxiaojian@gmail.cn>",
-    "description": "Gitbook学习笔记",
+    "description": "Gitbook学习笔记, 记录gitbook的学习过程和日常使用",
     "extension": null,
     "generator": "site",
-    "links": {
-        "sharing": {
-            "all": null,
-            "facebook": null,
-            "google": null,
-            "twitter": null,
-            "weibo": null
-        },
         "sidebar": {
-            "Sky's Blog": "http://skyao.github.io/"
+            "Sky@gitbook": "https://www.gitbook.com/@skyao"
         }
     },
     "output": null,
@@ -30,6 +22,6 @@
         "paperSize": "a4"
     },
     "plugins": [],
-    "title": "Leaning gitbook",
+    "title": "Gitbook学习笔记",
     "variables": {}
 }
