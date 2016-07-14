@@ -37,6 +37,8 @@ github方案是指采用github提供的git仓库存储书籍内容，并使用gi
 
 ## 错误处理
 
+### 长时间没有build成功
+
 注意： 如果长时间没有build成功，可以打开书籍的"UPDATES"查看情况：
 
 ![](images/updates_list.png)
@@ -61,3 +63,19 @@ github方案是指采用github提供的git仓库存储书籍内容，并使用gi
 因为没有真实的ksbn，所以当时设置了null，这个用本地 gitbook 命令跑起来没有问题，但是 gitbook 官网的build就失败了。
 
 解决方法：非常简单，删除这行，可以看到第二个build成功。
+
+### github webhook未添加
+
+新书籍加入后，有时会报错（进书籍的 Settings），说github webhook未添加到这本书连接的 github 仓库：
+
+![](images/webhook_error.png)
+
+此时点击左边的"Github"，再点"Manager Permissions":
+
+![](images/webhook_github.png)
+
+如果之前有设置github的 permission， 此时应该会立即显示 "Added" 字样：
+
+![](images/webhook_permission.png)
+
+再点回这本书籍的 Settings，就可以看到不再报错。
