@@ -2,6 +2,7 @@ bui# Summary
 
 * [介绍](introduction/index.md)
     * [资料收集整理](introduction/information.md)
+    * [TIPs](introduction/tips.md)
 * [安装](installation/index.md)
 	* [安装nodejs](installation/nodejs.md)
 	* [安装gitbook](installation/gitbook.md)
