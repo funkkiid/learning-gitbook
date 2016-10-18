@@ -15,25 +15,23 @@ github方案是指采用github提供的git仓库存储书籍内容，并使用gi
 
 在gitbook网站，登录后点"MYBOOKS" -> "New Book"。
 
-在"BASIC"里面填写基本信息：
+和前面一样先做 1/2/3 这三个步骤，然后点击红色箭头处：
 
-![](images/steps_basic.png)
+![](images/mix_step_1.jpg)
 
-然后点"GITHUB",在下拉框中选择对应的git仓库
+在左边的三个选择中点"GITHUB", 然后点红色箭头处的下拉框，gitbook会开始链接github获取可选的仓库列表，之后再点下拉框中，就可以选择对应的git仓库：
 
-![](images/steps_github.png)
+![](images/mix_step_2.jpg)
 
-然后点右下角的"Create Book"。
+最后点右下角的"Create Book"，书籍创建成功之后，显示如下：。
 
-新的书籍创建之后，就会开始导入github仓库，然后创建可以阅读的内容：
+![](images/mix_step_3.jpg)
 
-![](images/steps_importing.png)
+表示正在构建书籍的内容，稍等片刻，如果顺利，则显示为build成功。有时gitbook的页面不会及时刷新，可以稍后手工点击"UPDATE"直接看结果：
 
-稍等片刻，如果顺利，则显示为build成功。
+![](images/mix_step_4.jpg)
 
-![](images/steps_complete.png)
-
-点"Access your content"就可以看到生成的书籍内容。
+点"ABOUT"就可以回到书籍首页，再点"READ"可以看到生成的书籍内容的HTML内容。
 
 ## 错误处理
 

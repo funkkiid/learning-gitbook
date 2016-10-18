@@ -16,12 +16,16 @@ https://www.gitbook.com/
 
 在gitbook网站，登录后点"MYBOOKS" -> "New Book"。
 
-在"BASIC"里面填写基本信息：
+按照图片中的数字顺序，先后：
 
-![](images/steps_basic.png)
+1. 选择"BOOK & MANUAL"
+2. 填写title
+3. 填写描述
+4. 点击"create book"开始创建
 
-然后点"GIT"(注意不是github!),然后填写git仓库的名字。
+![](images/steps_gitbook.jpg)
 
-![](images/steps_git.png)
+注意不需要选择其他，默认就是在 gitbook 的 git 中为这本书新建一个仓库，然后页面显示书籍创建成功，可以开始内容添加：
 
-后面的操作就不详细讲解了，非常简便。
+![](images/steps_created.jpg)
+
