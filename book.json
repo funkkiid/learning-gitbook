@@ -11,13 +11,15 @@
     }
   },
   "plugins": [
-    "-search",
-    "search-pro@1.0.7"
+    "toggle-chapters",
+    "edit-link", 
+    "etoc",
+    "back-to-top-button"
   ],
   "pluginsConfig": {
-    "search-pro": {
-        "cutWordLib": "nodejieba",
-        "defineWord" : ["Gitbook Use"]
+    "edit-link": {
+        "base": "https://github.com/skyao/leaning-gitbook/edit/master",
+        "label": "Edit"
     }
   },
   "title": "Gitbook学习笔记",
