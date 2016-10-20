@@ -1,5 +1,7 @@
 # gitbook方案
 
+tags: gitbook
+
 github方案是指采用gitbook提供的git仓库存储书籍内容，并使用gitbook发布HTML内容。
 
 和github方案类似，同样适合用于公共环境，比如存放一些公开信息。差异只是用github还是gitbook。

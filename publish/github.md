@@ -1,5 +1,7 @@
 # github方案
 
+tags: github
+
 github方案是指采用github提供的git仓库存储书籍内容，并使用github pages服务发布HTML内容。
 
 适合用于公共环境，比如存放一些公开信息(如我喜欢的各种学习笔记)。

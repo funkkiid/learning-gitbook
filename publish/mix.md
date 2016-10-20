@@ -1,5 +1,7 @@
 # 混合方案
 
+tags: 混合
+
 github方案是指采用github提供的git仓库存储书籍内容，并使用gitbook发布HTML内容。
 
 可以说是github + gitbook 的混合。
