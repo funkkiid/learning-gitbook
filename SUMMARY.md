@@ -10,6 +10,7 @@ bui# Summary
 	* [添加新章节](creation/add_chapter.md)
 	* [生成的文件](creation/generated.md)
 	* [提交文件](creation/commit.md)
+	* [多语言支持](creation/multiple_lang.md)
 * [发布书籍](publish/index.md)
 	* [方案1：私有](publish/private.md)
 		* [使用Jenkins自动发布](publish/jenkins.md)
