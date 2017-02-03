@@ -11,7 +11,14 @@ npm install -g gitbook gitbook-cli
 切记在执行这个安装命令前，有：
 
 1. 设置nodejs的仓库
-2. 有将 `/usr/share/nodejs/bin` 加入PATH
+2. 在linux下，请将 `/usr/share/nodejs/bin` 加入PATH
+3. 在windows下，请务必在windows的 cmd 命令行下执行上述`npm install` 命令，不要在linux shell下(比如安装git之后的shell)安装，否则执行gitbook 总是会报错:
+
+	```bash
+    You need to install "gitbook-cli" to have access to the gitbook command anywhere on your system.
+	If you've installed this package globally, you need to uninstall it.
+	>> Run "npm uninstall -g gitbook" then "npm install -g gitbook-cli"
+    ```
 
 安装完成之后，执行 `gitbook --version` 命令可以看到当前安装的版本：
 
