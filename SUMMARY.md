@@ -6,6 +6,7 @@ bui# Summary
 * [安装](installation/index.md)
 	* [安装nodejs](installation/nodejs.md)
 	* [安装gitbook](installation/gitbook.md)
+	* [windows更新报错](installation/error-on-windows.md)
 * [创建书籍](creation/index.md)
 	* [添加新章节](creation/add_chapter.md)
 	* [生成的文件](creation/generated.md)
