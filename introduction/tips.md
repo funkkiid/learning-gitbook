@@ -37,6 +37,8 @@
 - [去除自带的插件](http://gitbook.zhangjikai.com/settings.html)
 - [一个配置好的 book.json 的例子](http://gitbook.zhangjikai.com/bookjson.html)
 
+## 主题
 
+-[马克飞象的gitbook主题插件](https://www.npmjs.com/package/gitbook-theme-maxiang)
 
 

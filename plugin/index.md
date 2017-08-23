@@ -14,6 +14,7 @@ https://plugins.gitbook.com/
 - [Sectionx](https://plugins.gitbook.com/plugin/sectionx): 将页面分块显示
 - [Codeblock-filename](https://plugins.gitbook.com/plugin/codeblock-filename): 为代码块添加文件名称,当需要明确指出代码来自那个文件或者类时可以考虑使用
 - [Tags](https://plugins.gitbook.com/plugin/tags): 在页面内容中添加一行指定当前页面的tag，然后会自动汇总所有tag和页面信息到一个tags页面，方便查找相关内容。
+- [Include Codeblock](https://plugins.gitbook.com/plugin/include-codeblock): 使用代码块的格式显示所包含文件的内容.
 
 ## 重点使用的插件
 
