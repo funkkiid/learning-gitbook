@@ -14,11 +14,12 @@
         "readme" : "README_gitbook.md"
     },
   "plugins": [
-    "maxiang",
+    "theme-comscore",
+    "callouts",
     "splitter",
     "-sharing",
-    "toggle-chapters",
-    "edit-link", 
+    "edit-link",
+    "wide-page",
     "back-to-top-button",
     "tags"
   ],

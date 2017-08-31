@@ -4,11 +4,13 @@
 
 在testbook下新建3个文件，然后修改 SUMMARY.md，内容如下：
 
-    # Summary
+```bash
+# Summary
 
-    * [A](a.md)
-    * [B](b.md)
-    * [C](c.md)
+* [A](a.md)
+* [B](b.md)
+* [C](c.md)
+```
 
 此时看到的内容如下：
 
@@ -24,13 +26,15 @@
 
 gitbook默认支持导航栏的层次结构：
 
-    # Summary
+```bash
+# Summary
 
-    * [A](a.md)
-        * [A1](a1.md)
-        * [A2](a2.md)
-    * [B](b.md)
-    * [C](c.md)
+* [A](a.md)
+    * [A1](a1.md)
+    * [A2](a2.md)
+* [B](b.md)
+* [C](c.md)
+```
 
 子章节只需要缩进一个 TAB 就可以了。
 
