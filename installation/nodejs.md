@@ -15,7 +15,8 @@ https://nodejs.org/en/download/ 下载 Windows Installer (.msi) 的 64位版本�
 将下载下来的 node-v6.1.0-linux-x64.tar.xz 文件解压缩，然后将文件复制到 /user/share 目录下：
 
 ```bash
-sudo mv node-v6.1.0-linux-x64 /usr/share/nodejs
+tar xvf node-v8.9.1-linux-x64.tar.xz
+sudo mv node-v8.9.1-linux-x64 /usr/share/nodejs
 ```
 
 打开 /etc/profile, 添加下来内容,将 `/usr/share/nodejs/bin` 加入PATH 路径:

@@ -5,7 +5,7 @@
 通过下列命令安装 gitbook 和 gitbook-cli
 
 ```bash
-npm install -g gitbook gitbook-cli
+npm install -g gitbook-cli
 ```
 
 切记在执行这个安装命令前，有：
