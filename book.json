@@ -11,25 +11,24 @@
     }
   },
   "structure" : {
-        "readme" : "README_gitbook.md"
     },
   "plugins": [
-    "theme-comscore",
-    "callouts",
-    "splitter",
+    "-search",
     "-sharing",
     "edit-link",
-    "wide-page",
-    "back-to-top-button",
-    "tags"
+    "github-buttons@2.1.0"
   ],
   "pluginsConfig": {
     "edit-link": {
         "base": "https://github.com/skyao/learning-gitbook/edit/master",
-        "label": "Edit"
+    "label": "Edit"
+    },
+    "github-buttons": {
+        "repo": "skyao/learning-gitbook",
+        "types": ["star"],
+        "size": "small"
     }
   },
-  "title": "Gitbook学习笔记",
+  "title": "Rust语言学习笔记",
   "variables": {
   }
-}
