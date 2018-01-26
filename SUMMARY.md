@@ -20,6 +20,6 @@ bui# Summary
     * [方案4：混合](publish/mix.md)
 * [插件](plugin/index.md)
     * [plantuml](plugin/plantuml.md)
-* [全文标签总览](tags.md)
+
 
 
