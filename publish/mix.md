@@ -79,3 +79,20 @@ github方案是指采用github提供的git仓库存储书籍内容，并使用gi
 ![](images/webhook_permission.png)
 
 再点回这本书籍的 Settings，就可以看到不再报错。
+
+### github组织不在列表中
+
+gitbook的组织，必须要和github的组织对应上，才能使用。
+
+在gitbook的组织管理页面中，在"github"页面进行管理时，有时会发现从"Select a Github organization"下拉框中找不到我们需要的github组织。
+
+官方给出的解决方式如下：
+
+- [Why is my organization not listed?](https://help.gitbook.com/github/why-is-my-organization-not-listed.html)
+
+打开下列地址：
+
+https://github.com/settings/connections/applications/e103ee3796d447fab74c
+
+选择对应的组织进行授权即可。
+
