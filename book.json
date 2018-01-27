@@ -2,31 +2,31 @@
   "gitbook": ">=3.2.0",
   "description": "Gitbook学习笔记",
   "language": "zh-hans",
-  "author": "Sky Ao <aoxiaojian@gmail.com>",
+  "author": "敖小剑",
   "extension": null,
   "generator": "site",
   "links" : {
     "sidebar" : {
-        "Sky@Gitbook": "https://skyao.gitbooks.io"
+        "敖小剑的博客": "https://skyao.io"
     }
   },
   "structure" : {
-        "readme" : "README_gitbook.md"
     },
   "plugins": [
-    "theme-comscore",
-    "callouts",
-    "splitter",
+    "-search",
     "-sharing",
     "edit-link",
-    "wide-page",
-    "back-to-top-button",
-    "tags"
+    "github-buttons@2.1.0"
   ],
   "pluginsConfig": {
     "edit-link": {
         "base": "https://github.com/skyao/learning-gitbook/edit/master",
         "label": "Edit"
+    },
+    "github-buttons": {
+        "repo": "skyao/learning-gitbook",
+        "types": ["star"],
+        "size": "small"
     }
   },
   "title": "Gitbook学习笔记",
